@@ -17,7 +17,6 @@ body {
 #home {
   height: 100vh;
   background-image: url("/assets/background/background-home.png");
-  position: relative;
 }
 #home .logo {
   display: flex;
@@ -50,17 +49,51 @@ body {
 }
 
 #services {
-  height: 40vh;
+  height: 70vh;
   background: #0C0F1B;
+  position: relative;
 }
 #services .cards {
   width: 80%;
-  height: 90%;
-  border: 1px solid #fff;
+  height: 95%;
   position: absolute;
-  top: 70%;
+  top: 0;
   left: 0;
   right: 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#services .cards .card {
+  width: 15rem;
+  height: 90%;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  background: #000;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+#services .cards .card .contro {
+  margin-bottom: 2.5rem;
+}
+#services .cards .card img {
+  width: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#services .cards .card h3 {
+  color: #F28705;
+}
+#services .cards .card p {
+  color: #fff;
+}
+#services .cards div {
+  background: #0B7ABF;
+  width: 70%;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
 }
 
 #boosts {

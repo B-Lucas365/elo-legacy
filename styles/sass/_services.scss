@@ -1,16 +1,56 @@
 #services{
-    height: 40vh;
+    height: 70vh;
     background: #0C0F1B ;
+    position: relative;
 
     .cards{
         width: 80%;
-        height: 90%;
-        border: 1px solid #fff;
+        height: 95%;
         position: absolute;
-        top: 70%;
+        top: 0;
         left:0;
         right: 0;
-        
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+        .card{
+            width: 15rem;
+            height: 90%;
+            text-align: center;
+            margin: 2rem;
+            border-radius: 0.5rem;
+            background: $preto;
+            display: grid;
+            place-content: center;
+            place-items: center;
+
+            .contro{
+                margin-bottom: 2.5rem;
+            }
+
+            img{
+                width: 5rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            h3{
+                color: $laranja;
+
+            }
+
+            p{
+                color: #fff;
+            }
+        }
+
+        div{
+            background: $azul;
+            width: 70%;
+            margin: 2rem auto;
+            border-radius: 0.5rem;
+        }
     }
 
 }
