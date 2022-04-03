@@ -13,6 +13,7 @@
 #home {
   height: 100vh;
   background-image: url("/assets/background/background-home.png");
+  position: relative;
 }
 #home .logo {
   display: flex;
@@ -27,4 +28,34 @@
   color: #fff;
   margin: 1rem;
   font-family: "poppins", sans-serif;
+}
+#home .home {
+  height: 50%;
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+#home .home img {
+  width: 20rem;
+}
+#home .home p {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+}
+
+#services {
+  height: 40vh;
+  background: #0C0F1B;
+}
+#services .cards {
+  width: 80%;
+  height: 90%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
 }

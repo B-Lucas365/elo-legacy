@@ -1,6 +1,7 @@
 #home{
     height: 100vh;
     background-image: url("/assets/background/background-home.png");
+    position: relative;
     .logo{
         display: flex;
         justify-content: center;
@@ -18,5 +19,23 @@
             }
         }
   
+    }
+    .home{
+        height: 50%;
+        width: 100%;
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+
+        img{
+            width: 20rem;
+        }
+
+        p{
+            color: #fff;
+            font-family: "poppins", sans-serif;
+            text-align: center;
+        }
+
     }
 }
