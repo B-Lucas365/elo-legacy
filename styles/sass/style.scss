@@ -1,7 +1,13 @@
-@import "header", "home", "services", "boosts", "about", "contact", "footer";
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    margin-left: 10.31rem;
+    margin-right: 10.31rem;
+}
+
+@import "header", "home", "services", "boosts", "about", "contact", "footer";
+
