@@ -1,7 +1,18 @@
+$branco: #fff;
+$preto: #000000;
+$cinza: #E8E8E8;
+$azul: #0B7ABF;
+$laranja: #F28705;
+$azul-escuro: #0C0F1B;
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
 .container{
