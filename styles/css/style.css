@@ -1,18 +1,105 @@
-/* Error: Undefined variable.
- *    ,
- * 10 |     color: $branco;
- *    |            ^^^^^^^
- *    '
- *   styles\sass\_boosts.scss 10:12  @import
- *   styles\sass\style.scss 17:39    root stylesheet */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 10 \2502      color: $branco;\d\a    \2502             ^^^^^^^\a    \2575 \a   styles\\sass\\_boosts.scss 10:12  @import\a   styles\\sass\\style.scss 17:39    root stylesheet";
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin-left: 10.31rem;
+  margin-right: 10.31rem;
+}
+
+#home {
+  height: 100vh;
+  background-image: url("/assets/background/background-home.png");
+  position: relative;
+}
+#home .logo {
+  display: flex;
+  justify-content: center;
+}
+#home nav ul {
+  display: flex;
+  justify-content: center;
+}
+#home nav ul li {
+  list-style: none;
+  color: #fff;
+  margin: 1rem;
+  font-family: "poppins", sans-serif;
+}
+#home .home {
+  height: 50%;
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+#home .home img {
+  width: 20rem;
+}
+#home .home p {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+}
+
+#services {
+  height: 40vh;
+  background: #0C0F1B;
+}
+#services .cards {
+  width: 80%;
+  height: 90%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#boosts {
+  background-image: url("/assets/background/background-boosts.png");
+  height: 130vh;
+}
+#boosts h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 5rem;
+  margin-bottom: 4.18rem;
+  color: #fff;
+}
+#boosts .people {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#boosts .people .pearson {
+  background: #0C0F1B;
+  border-radius: 10px;
+  width: 90%;
+  padding: 1.875rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 1.56rem;
+}
+#boosts .people .pearson img {
+  clip-path: circle(50%);
+}
+#boosts .people .pearson .about-pearson {
+  margin-left: 1rem;
+}
+#boosts .people .pearson .about-pearson h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+#boosts .people .pearson .about-pearson p {
+  font-size: 1.5rem;
+  color: #F28705;
 }
