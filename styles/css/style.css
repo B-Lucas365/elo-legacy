@@ -1,61 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 10 |     color: $branco;
+ *    |            ^^^^^^^
+ *    '
+ *   styles\sass\_boosts.scss 10:12  @import
+ *   styles\sass\style.scss 17:39    root stylesheet */
 
-.container {
-  margin-left: 10.31rem;
-  margin-right: 10.31rem;
-}
-
-#home {
-  height: 100vh;
-  background-image: url("/assets/background/background-home.png");
-  position: relative;
-}
-#home .logo {
-  display: flex;
-  justify-content: center;
-}
-#home nav ul {
-  display: flex;
-  justify-content: center;
-}
-#home nav ul li {
-  list-style: none;
-  color: #fff;
-  margin: 1rem;
-  font-family: "poppins", sans-serif;
-}
-#home .home {
-  height: 50%;
-  width: 100%;
-  margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-}
-#home .home img {
-  width: 20rem;
-}
-#home .home p {
-  color: #fff;
-  font-family: "poppins", sans-serif;
-  text-align: center;
-}
-
-#services {
-  height: 40vh;
-  background: #0C0F1B;
-}
-#services .cards {
-  width: 80%;
-  height: 90%;
-  border: 1px solid #fff;
-  position: absolute;
-  top: 70%;
-  left: 0;
-  right: 0;
-  margin: auto;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 10 \2502      color: $branco;\d\a    \2502             ^^^^^^^\a    \2575 \a   styles\\sass\\_boosts.scss 10:12  @import\a   styles\\sass\\style.scss 17:39    root stylesheet";
 }
