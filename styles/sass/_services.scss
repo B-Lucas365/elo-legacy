@@ -24,6 +24,11 @@
             display: grid;
             place-content: center;
             place-items: center;
+            transition: .5s;
+
+            &:hover{
+                transform: translateY(-1.5rem);
+            }
 
             .contro{
                 margin-bottom: 2.5rem;

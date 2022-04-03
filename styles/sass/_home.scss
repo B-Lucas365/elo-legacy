@@ -1,6 +1,8 @@
 #home{
     height: 100vh;
     background-image: url("/assets/background/background-home.png");
+    background-size: cover;
+    background-position: center;
     .logo{
         display: flex;
         justify-content: center;
@@ -25,10 +27,25 @@
         margin-top: 5rem;
         display: flex;
         justify-content: center;
+        align-items: center;
+
+        .logohome{
+            animation: elolegacy 5s ease-in-out infinite;
+        }
 
         img{
             width: 20rem;
         }
+
+        @keyframes elolegacy{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-30%);
+            }
+        }
+            
 
         p{
             color: #fff;

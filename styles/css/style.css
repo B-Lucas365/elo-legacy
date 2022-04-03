@@ -17,6 +17,8 @@ body {
 #home {
   height: 100vh;
   background-image: url("/assets/background/background-home.png");
+  background-size: cover;
+  background-position: center;
 }
 #home .logo {
   display: flex;
@@ -38,9 +40,21 @@ body {
   margin-top: 5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+#home .home .logohome {
+  animation: elolegacy 5s ease-in-out infinite;
 }
 #home .home img {
   width: 20rem;
+}
+@keyframes elolegacy {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30%);
+  }
 }
 #home .home p {
   color: #fff;
@@ -74,6 +88,10 @@ body {
   display: grid;
   place-content: center;
   place-items: center;
+  transition: 0.5s;
+}
+#services .cards .card:hover {
+  transform: translateY(-1.5rem);
 }
 #services .cards .card .contro {
   margin-bottom: 2.5rem;
