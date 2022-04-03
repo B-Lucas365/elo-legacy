@@ -8,12 +8,15 @@
     nav{
         ul{
             display:flex ;
-            
-        }
+            justify-content: center;
 
-        ul li{
-            list-style: none;
-            color: #fff;
+            li{
+                list-style: none;
+                color: #fff;
+                margin: 1rem ;
+                font-family: "poppins", sans-serif;
+            }
         }
+  
     }
 }
