@@ -1,1 +1,10 @@
+#home {
+  height: 100vh;
+  background-image: url("/assets/background/background-home.png");
+}
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
