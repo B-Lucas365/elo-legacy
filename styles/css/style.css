@@ -65,20 +65,26 @@ body {
 
 #boosts {
   background-image: url("/assets/background/background-boosts.png");
-  height: 130vh;
+  height: 100vh;
 }
-#boosts h2 {
+#boosts .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#boosts .container h2 {
   font-size: 2.5rem;
-  text-align: center;
-  padding-top: 5rem;
+  padding-top: 2rem;
   margin-bottom: 4.18rem;
   color: #fff;
 }
-#boosts .people {
+#boosts .container .people {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 1.56rem;
+  grid-template-columns: 26.25rem 26.25rem;
 }
-#boosts .people .pearson {
+#boosts .container .people .pearson {
   background: #0C0F1B;
   border-radius: 10px;
   width: 90%;
@@ -86,19 +92,20 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  margin: 1.56rem;
 }
-#boosts .people .pearson img {
+#boosts .container .people .pearson img {
   clip-path: circle(50%);
+  width: 6.25rem;
 }
-#boosts .people .pearson .about-pearson {
+#boosts .container .people .pearson .about-pearson {
   margin-left: 1rem;
 }
-#boosts .people .pearson .about-pearson h3 {
+#boosts .container .people .pearson .about-pearson h3 {
   font-size: 2rem;
   color: #fff;
+  font-weight: 400;
 }
-#boosts .people .pearson .about-pearson p {
+#boosts .container .people .pearson .about-pearson p {
   font-size: 1.5rem;
   color: #F28705;
 }
