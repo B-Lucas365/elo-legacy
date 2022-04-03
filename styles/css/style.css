@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: 10.31rem;
+  margin-right: 10.31rem;
+}
+
 #home {
   height: 100vh;
   background-image: url("/assets/background/background-home.png");
@@ -16,10 +27,4 @@
   color: #fff;
   margin: 1rem;
   font-family: "poppins", sans-serif;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
