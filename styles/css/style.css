@@ -2,6 +2,17 @@
   height: 100vh;
   background-image: url("/assets/background/background-home.png");
 }
+#home .logo {
+  display: flex;
+  justify-content: center;
+}
+#home nav ul {
+  display: flex;
+}
+#home nav ul li {
+  list-style: none;
+  color: #fff;
+}
 
 * {
   padding: 0;

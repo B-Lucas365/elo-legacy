@@ -1,4 +1,19 @@
 #home{
     height: 100vh;
     background-image: url("/assets/background/background-home.png");
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        ul{
+            display:flex ;
+            
+        }
+
+        ul li{
+            list-style: none;
+            color: #fff;
+        }
+    }
 }
