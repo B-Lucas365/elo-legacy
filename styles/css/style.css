@@ -118,13 +118,12 @@ body {
   background-image: url("/assets/background/background-boosts.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
 }
 #boosts .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 #boosts .container h2 {
   font-size: 2.5rem;
@@ -165,7 +164,6 @@ body {
 
 #about {
   background: #0C0F1B;
-  height: 100vh;
 }
 #about .container {
   display: flex;
