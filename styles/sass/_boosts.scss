@@ -30,7 +30,6 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
-      //margin: 1.56rem;
 
         img{
           clip-path: circle(50%);
@@ -41,13 +40,13 @@
           margin-left: 1rem;
 
           h3{
-            font-size: 2rem;
+            font-size: 1.75rem;
             color: $branco;
             font-weight: 400;
           }
 
           p{
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             color: $laranja;
           }
         }      
