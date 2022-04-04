@@ -124,10 +124,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 6rem 0;
 }
 #boosts .container h2 {
   font-size: 2.5rem;
-  padding-top: 4rem;
   margin-bottom: 4.18rem;
   color: #fff;
 }
@@ -135,7 +135,7 @@ body {
   display: grid;
   place-items: center;
   gap: 1.56rem;
-  grid-template-columns: 26.25rem 26.25rem;
+  grid-template-columns: repeat(2, 26.25rem);
 }
 #boosts .container .people .pearson {
   background: #0C0F1B;
@@ -161,4 +161,69 @@ body {
 #boosts .container .people .pearson .about-pearson p {
   font-size: 1.5rem;
   color: #F28705;
+}
+
+#about {
+  background: #0C0F1B;
+  height: 100vh;
+}
+#about .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4.06rem 0;
+}
+#about .container h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 4.25rem;
+}
+#about .container .cards-about {
+  display: grid;
+  gap: 2.625rem;
+  grid-template-columns: repeat(2, 23.75rem);
+}
+#about .container .cards-about .card-about {
+  background: #000;
+  border-radius: 0.5rem;
+  padding: 1.875rem;
+}
+#about .container .cards-about .card-about h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #F28705;
+  margin-bottom: 1rem;
+}
+#about .container .cards-about .card-about p {
+  font-size: 1.125rem;
+  color: #fff;
+}
+#about .container .cards-about .comments {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#about .container .cards-about .comments .card-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#about .container .cards-about .comments .card-comment .people-comment {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0.875rem;
+}
+#about .container .cards-about .comments .card-comment .people-comment img {
+  width: 3.125rem;
+  height: 3.125rem;
+  clip-path: circle(50%);
+  margin-right: 0.625rem;
+}
+#about .container .cards-about .comments .card-comment .people-comment p {
+  font-size: 1.125rem;
+  color: #0B7ABF;
+}
+#about .container .cards-about .comments .card-comment p {
+  font-size: 1rem;
 }
