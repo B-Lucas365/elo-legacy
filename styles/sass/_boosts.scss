@@ -19,7 +19,7 @@
       display: grid;
       place-items: center;
       gap: 1.56rem;
-      grid-template-columns:  repeat(3, 23rem);
+      grid-template-columns:  repeat(2, 23rem);
 
       .pearson{
         background: $azul-escuro;
@@ -27,7 +27,7 @@
         width: 90%;
         padding: 1.875rem;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-end;
 
         img{
