@@ -123,10 +123,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem 0;
+  padding: 3.5rem 0;
 }
 #boosts .container h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 4.18rem;
   color: #fff;
 }
@@ -134,7 +134,7 @@ body {
   display: grid;
   place-items: center;
   gap: 1.56rem;
-  grid-template-columns: repeat(2, 26.25rem);
+  grid-template-columns: repeat(3, 23rem);
 }
 #boosts .container .people .pearson {
   background: #0C0F1B;
@@ -153,12 +153,12 @@ body {
   margin-left: 1rem;
 }
 #boosts .container .people .pearson .about-pearson h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #fff;
   font-weight: 400;
 }
 #boosts .container .people .pearson .about-pearson p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #F28705;
 }
 
@@ -173,14 +173,14 @@ body {
   padding: 4.06rem 0;
 }
 #about .container h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
   margin-bottom: 4.25rem;
 }
 #about .container .cards-about {
   display: grid;
-  gap: 2.625rem;
-  grid-template-columns: repeat(2, 23.75rem);
+  gap: 2rem;
+  grid-template-columns: repeat(2, 22rem);
 }
 #about .container .cards-about .card-about {
   background: #000;
@@ -188,13 +188,13 @@ body {
   padding: 1.875rem;
 }
 #about .container .cards-about .card-about h5 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #F28705;
   margin-bottom: 1rem;
 }
 #about .container .cards-about .card-about p {
-  font-size: 1.125rem;
+  font-size: 0.9rem;
   color: #fff;
 }
 #about .container .cards-about .comments {
@@ -219,11 +219,11 @@ body {
   margin-right: 0.625rem;
 }
 #about .container .cards-about .comments .card-comment .people-comment p {
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   color: #0B7ABF;
 }
 #about .container .cards-about .comments .card-comment p {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 #contact {
@@ -238,7 +238,7 @@ body {
   padding: 3.125rem 0;
 }
 #contact .container h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
   margin-bottom: 3.125rem;
 }
@@ -249,7 +249,7 @@ body {
   width: 100%;
 }
 #contact .container .cards-contact .card-contact {
-  width: 22.81rem;
+  width: 20rem;
   border-radius: 10px;
   background: #0C0F1B;
   padding: 1.5rem 1.125rem;
@@ -259,14 +259,15 @@ body {
   flex-direction: column;
 }
 #contact .container .cards-contact .card-contact h3 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #F28705;
 }
 #contact .container .cards-contact .card-contact .button-enviar {
   background: #F28705;
   color: #0C0F1B;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -301,6 +302,7 @@ body {
   border: 1px solid #0C0F1B;
   padding: 0.625rem 0 0.625rem 0.81rem;
   font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
 }
 #contact .container .cards-contact .card-email form input::placeholder, #contact .container .cards-contact .card-email form textarea::placeholder {
   color: #0C0F1B;
