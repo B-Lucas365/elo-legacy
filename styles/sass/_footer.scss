@@ -1,0 +1,32 @@
+footer{
+    background: $azul-escuro;
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4.06rem 0;
+
+        .logo{
+            margin-right: 5.625rem;
+        }
+
+        .social-media{
+            margin-left: 5.625rem;
+
+            .social{
+                display: flex;
+                align-items: center;
+                margin: 0.4rem 0;
+
+                img{
+                    margin-right: 1rem;
+                }
+
+                p{
+                    color: $branco;
+                }
+            }
+        }
+    }
+}
