@@ -1,12 +1,22 @@
 #home{
     height: 100vh;
-    background-image: url("/assets/background/background-home.png");
     background-size: cover;
     background-position: center;
     .logo{
         display: flex;
         justify-content: center;
     }
+    .bg-video{
+       position: absolute;
+       top: 0;
+       left: 0;
+       object-fit: cover;
+       width: 100%;
+       height: 100vh;
+       z-index: -100;
+       overflow: hidden;
+    }
+
     nav{
         ul{
             display:flex ;
@@ -32,6 +42,7 @@
         .logohome{
             animation: elolegacy 5s ease-in-out infinite;
         }
+
 
         img{
             width: 20rem;

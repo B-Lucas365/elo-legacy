@@ -16,13 +16,22 @@ body {
 
 #home {
   height: 100vh;
-  background-image: url("/assets/background/background-home.png");
   background-size: cover;
   background-position: center;
 }
 #home .logo {
   display: flex;
   justify-content: center;
+}
+#home .bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -100;
+  overflow: hidden;
 }
 #home nav ul {
   display: flex;
@@ -63,7 +72,7 @@ body {
 }
 
 #services {
-  height: 70vh;
+  height: 60vh;
   background: #0C0F1B;
   position: relative;
 }
@@ -89,6 +98,7 @@ body {
   place-content: center;
   place-items: center;
   transition: 0.5s;
+  margin-top: -7rem;
 }
 #services .cards .card:hover {
   transform: translateY(-1.5rem);
@@ -98,7 +108,7 @@ body {
 }
 #services .cards .card img {
   width: 5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 #services .cards .card h3 {
