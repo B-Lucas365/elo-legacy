@@ -245,7 +245,7 @@ body {
 #contact .container .cards-contact {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
 }
 #contact .container .cards-contact .card-contact {
@@ -257,6 +257,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 0 5rem;
 }
 #contact .container .cards-contact .card-contact h3 {
   font-size: 1.2rem;
@@ -318,4 +319,31 @@ body {
 }
 #contact .container .cards-contact .card-whatsapp h3 {
   margin-bottom: 1rem;
+}
+
+footer {
+  background: #0C0F1B;
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.06rem 0;
+}
+footer .container .logo {
+  margin-right: 5.625rem;
+}
+footer .container .social-media {
+  margin-left: 5.625rem;
+}
+footer .container .social-media .social {
+  display: flex;
+  align-items: center;
+  margin: 0.4rem 0;
+}
+footer .container .social-media .social img {
+  margin-right: 1rem;
+}
+footer .container .social-media .social p {
+  color: #fff;
 }
