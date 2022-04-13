@@ -3,6 +3,10 @@
   background-position: center;
   position: relative;
   background: linear-gradient(to bottom, $azul-escuro 1%, transparent 99%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .bg-video{
       position: absolute;
@@ -19,7 +23,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3.5rem 0;
+    justify-content: center;
+    //padding: 3.5rem 0;
 
     h2{
       font-size: 2rem;
