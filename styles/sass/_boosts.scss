@@ -1,7 +1,19 @@
 #boosts{
-  background-image: url('/assets/background/background-boosts.png');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background: linear-gradient(to bottom, $azul-escuro 1%, transparent 99%);
+
+  .bg-video{
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100vh;
+      z-index: -100;
+      overflow: hidden;
+  }
 
   .container{
     display: flex;
