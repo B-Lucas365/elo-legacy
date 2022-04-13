@@ -2,9 +2,10 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  background: linear-gradient(to bottom, $azul-escuro 1%, transparent 99%);
+  background: linear-gradient(0.5turn, $azul-escuro 1%, transparent 99%);
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
